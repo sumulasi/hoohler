@@ -1,7 +1,6 @@
 # Hooker
 
 Basic gutenberg blocks for WordPress Gutenberg editor.
-```
 
 # Setup
 
