@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: blocks/column/component/edit.js:40
+msgid "Column Size"
+msgstr ""
+
+#: blocks/column/component/edit.js:42
+msgid "XS Column Count"
+msgstr ""
+
+#: blocks/column/component/edit.js:49
+msgid "SM Column Count"
+msgstr ""
+
+#: blocks/column/component/edit.js:56
+msgid "MD Column Count"
+msgstr ""
+
+#: blocks/column/component/edit.js:63
+msgid "LG Column Count"
+msgstr ""
+
+#: blocks/column/component/edit.js:70
+msgid "XL Column Count"
+msgstr ""
+
+#: blocks/column/index.js:15
+msgid "SP Column"
+msgstr ""
+
+#: blocks/column/index.js:17
+#: blocks/div/index.js:17
+#: blocks/image/index.js:17
+#: blocks/posts/index.js:101
+#: blocks/row/index.js:17
+#: blocks/section/index.js:17
+#: blocks/slick-slider/index.js:17
+#: blocks/slider/index.js:17
+#: blocks/video/index.js:17
+msgid "Block description"
+msgstr ""
+
+#: blocks/div/component/edit.js:114
+msgid "Background Type"
+msgstr ""
+
+#: blocks/div/component/edit.js:116
+msgid "Select Background Type"
+msgstr ""
+
+#: blocks/div/component/edit.js:131
+msgid "Select Background Color"
+msgstr ""
+
+#: blocks/div/component/edit.js:193
+#: blocks/video/component/edit.js:75
+msgid "Remove Video"
+msgstr ""
+
+#: blocks/div/component/edit.js:200
+msgid "Upload Video"
+msgstr ""
+
+#: blocks/div/component/edit.js:224
+msgid "Remove Image"
+msgstr ""
+
+#: blocks/div/component/edit.js:231
+msgid "Upload Image"
+msgstr ""
+
+#: blocks/div/component/edit.js:294
+msgid "Select Background Color #1"
+msgstr ""
+
+#: blocks/div/component/edit.js:302
+msgid "Gradient Direction (Degrees)"
+msgstr ""
+
+#: blocks/div/component/edit.js:313
+msgid "Color 1 Location"
+msgstr ""
+
+#: blocks/div/component/edit.js:324
+msgid "Color 2 Location"
+msgstr ""
+
+#: blocks/div/component/edit.js:337
+msgid "Text Color"
+msgstr ""
+
+#: blocks/div/component/edit.js:339
+msgid "Select Text Color"
+msgstr ""
+
+#: blocks/div/component/edit.js:99
+msgid "Div Class"
+msgstr ""
+
+#: blocks/div/index.js:15
+msgid "SP Div"
+msgstr ""
+
+#: blocks/image/component/edit.js:103
+msgid "Image Alt Text"
+msgstr ""
+
+#: blocks/image/component/edit.js:109
+msgid "Mask Image"
+msgstr ""
+
+#: blocks/image/component/edit.js:128
+msgid "Replace Mask image"
+msgstr ""
+
+#: blocks/image/component/edit.js:136
+msgid "Remove Mask image"
+msgstr ""
+
+#: blocks/image/component/edit.js:62
+#: blocks/video/component/edit.js:30
+msgid "Image"
+msgstr ""
+
+#: blocks/image/component/edit.js:81
+msgid "Replace image"
+msgstr ""
+
+#: blocks/image/component/edit.js:89
+msgid "Remove image"
+msgstr ""
+
+#: blocks/image/index.js:15
+msgid "SP Image"
+msgstr ""
+
+#: blocks/posts/index.js:59
+msgid "Latest Posts Settings"
+msgstr ""
+
+#: blocks/posts/index.js:72
+msgid "Horizontal Layout"
+msgstr ""
+
+#: blocks/posts/index.js:77
+msgid "Display Thumbnail"
+msgstr ""
+
+#: blocks/posts/index.js:81
+msgid "Block Alignment"
+msgstr ""
+
+#: blocks/posts/index.js:99
+msgid "GCB Posts"
+msgstr ""
+
+#: blocks/posts/posts.js:107
+msgid "Read more"
+msgstr ""
+
+#: blocks/posts/posts.js:35
+msgid "Posts"
+msgstr ""
+
+#: blocks/posts/posts.js:39
+msgid "No posts found."
+msgstr ""
+
+#: blocks/posts/posts.js:85
+msgid "(Untitled)"
+msgstr ""
+
+#: blocks/posts/posts.js:92
+msgid "by"
+msgstr ""
+
+#: blocks/row/component/edit.js:29
+msgid "Row"
+msgstr ""
+
+#: blocks/row/component/edit.js:31
+msgid "Justify Content Classes"
+msgstr ""
+
+#: blocks/row/component/edit.js:44
+msgid "Row Direction Classes"
+msgstr ""
+
+#: blocks/row/index.js:15
+msgid "SP Row"
+msgstr ""
+
+#: blocks/section/component/edit.js:27
+msgid "Section"
+msgstr ""
+
+#: blocks/section/component/edit.js:29
+msgid "Class Name"
+msgstr ""
+
+#: blocks/section/component/edit.js:34
+msgid "Select Container Type"
+msgstr ""
+
+#: blocks/section/index.js:15
+msgid "SP Section"
+msgstr ""
+
+#: blocks/slick-slider/index.js:15
+msgid "SP Slick Slider"
+msgstr ""
+
+#: blocks/slider/index.js:15
+msgid "SP Slider"
+msgstr ""
+
+#: blocks/video/component/edit.js:102
+msgid "Video URL"
+msgstr ""
+
+#: blocks/video/component/edit.js:32
+msgid "Video Source"
+msgstr ""
+
+#: blocks/video/component/edit.js:65
+msgid "Replace Video"
+msgstr ""
+
+#: blocks/video/index.js:15
+msgid "SP Video"
+msgstr ""

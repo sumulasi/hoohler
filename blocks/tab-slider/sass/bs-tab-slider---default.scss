@@ -1,0 +1,49 @@
+$DEFAULT_bs-tab-slider_tabs--margin: 0 0 40px 0;
+$DEFAULT_bs-tab-slider_tabs--text-align: center;
+
+.bs-tab-slider {
+	&.bs-tab-slider---default {
+		.bs-slider {
+			&.bs-slider---default {
+				&.bs-slider-tabs {
+					margin: $DEFAULT_bs-tab-slider_tabs--margin;
+					.slick-slide {
+						&.slick-current {
+							.bs-single-slide {
+								position: relative;
+								p {
+									position: relative;
+
+									&::after {
+										content: "";
+										width: 100%;
+										height: 1px;
+										background-color: black;
+										position: absolute;
+										bottom: 0;
+										left: 0;
+									}
+								}
+							}
+						}
+					}
+					.bs-single-slide {
+						text-align: $DEFAULT_bs-tab-slider_tabs--text-align;
+						p {
+							display: inline-block;
+							cursor: pointer;
+						}
+					}
+				}
+				&.bs-slider-tab-content {
+					.bs-single-slide {
+						.bs-div {
+							height: auto;
+							background-position: initial;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+// Frontend CSS
+.media-video {
+    position: relative;
+    video {
+        width: 500px;
+        height: 100%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,25 @@
+//Default Styles
+
+//Theme Default
+
+@import "../../../theme-defaults.scss";
+
+
+//Common Styles
+
+.bs-single-post {
+	&__trigger {
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+
+	&__learn-more {
+		&--link {
+			&:hover {
+				text-decoration: none !important;
+			}
+		}
+	}
+}
+

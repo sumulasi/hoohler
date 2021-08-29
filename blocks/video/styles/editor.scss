@@ -1,0 +1,27 @@
+// Editor CSS
+.image-add-button {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border: 1px solid #0275d8;
+}
+.image-remove-button,
+.image-replace-button {
+    margin: 0 10px 20px 0;
+}
+.media-preview-image {
+    margin-bottom: 15px;
+}
+.media-video {
+    position: relative;
+    video {
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.multi-select {
+    height: 80px;
+    select {
+        height: 80px !important;
+    }
+}
