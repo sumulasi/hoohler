@@ -11,7 +11,9 @@ const {
 	RadioControl,
     RangeControl,
     SelectControl
- } = wp.components;
+} = wp.components;
+ 
+import Select from "react-select";
 
 const Edit = (props) => {
     const {attributes, setAttributes} = props;
@@ -97,7 +99,7 @@ const Edit = (props) => {
         <InspectorControls>
             <Panel>
                 <PanelBody title={__("Div Class", "")} initialOpen={false}>
-					<SelectControl
+					<Select
 						defaultValue={divClassNames}
 						isMulti
 						name="divClassNames"
@@ -111,7 +113,7 @@ const Edit = (props) => {
 						}}
 					/>
 				</PanelBody>
-                <PanelBody title={__("Background Type", "")} initialOpen={false}>
+          <PanelBody title={__("Background Type", "")} initialOpen={false}>
 					<SelectControl
 						label={__("Select Background Type", "")}
 						value={backgroundTypeDiv}

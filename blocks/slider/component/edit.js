@@ -33,7 +33,7 @@ const Edit = ({ isSelected, attributes, setAttributes }) => {
 	let settings = {
 		adaptiveHeight: autoHeight,
 		fade,
-		arrows: arrows,
+		arrows: true,
 		dots: dots,
 		infinite: loop,
 		speed: speed,

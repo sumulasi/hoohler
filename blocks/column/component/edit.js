@@ -11,7 +11,9 @@ const {
 	RadioControl,
     RangeControl,
     SelectControl
- } = wp.components;
+} = wp.components;
+ 
+import Select from "react-select";
 
 const Edit = (props) => {
     const {attributes, setAttributes} = props;

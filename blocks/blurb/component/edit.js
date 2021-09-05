@@ -22,7 +22,9 @@ const {
 	TextareaControl,
  } = wp.components;
 
- import {InnerEditContent} from "./innerContent";
+import { InnerEditContent } from "./innerContent";
+ 
+import Select from "react-select";
 
 const Edit = (props) => {
     const {attributes, setAttributes, instanceId} = props;
@@ -215,7 +217,7 @@ const Edit = (props) => {
 					</PanelRow>
 				</PanelBody>
 				<PanelBody title={__("Display Order", "")} initialOpen={false}>
-					<SelectControl
+					<Select
 						name="display-order"
 						value={orderDiv}
 						options={[
@@ -223,7 +225,8 @@ const Edit = (props) => {
 							{ label: "Description", value: "description" },
 							{ label: "Bottom Text or Link", value: "bottom-text" },
 							{ label: "Image", value: "image" },
-						]}
+							]}
+							isMulti
 						onChange={(val) => {
 							setAttributes({ orderDiv: val });
 						}}

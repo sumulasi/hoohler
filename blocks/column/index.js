@@ -82,6 +82,9 @@ export default registerBlockType( 'sp-blocks/column', {
 			default: []
 		}
 	},
+	supports: {
+		customClassName: false,
+	},
 	// Function callback of edit property (to render block and block controls in Gutenberg editor)
 	edit: Edit,
 	// Function callback of save property (to save block content in post_content)

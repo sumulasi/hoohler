@@ -22,13 +22,16 @@ export default registerBlockType( 'sp-blocks/row', {
 	// To handle block toolbar controls.
 	attributes: {
 		justifyContentClass: {
-			type:'sring',
+			type:'string',
 			default: ""
 		},
 		directionClass: {
-			type:'sring',
+			type:'string',
 			default: ""
 		}
+	},
+	supports: {
+		customClassName: false,
 	},
 	// Function callback of edit property (to render block and block controls in Gutenberg editor)
 	edit: Edit,

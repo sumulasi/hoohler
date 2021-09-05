@@ -11,7 +11,7 @@ const {
 	RadioControl,
     TextControl,
     SelectControl
- } = wp.components;
+} = wp.components;
 
 const ALLOWED_BLOCK = ['sp-blocks/column']
 
